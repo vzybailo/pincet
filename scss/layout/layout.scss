@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+    line-height: 1.42;
+   }
+  
+  *, *::before, *::after { 
+    box-sizing: border-box; 
+  }
+  
+  body, html {
+    height: 100%;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+  }
+
+  a {
+      color: #000;
+      text-decoration: none;
+  }
+
+  button {
+    border: none;
+    outline: none;
+    box-shadow:0 5px 5px rgba(0,0,0,0.3);
+  }
+
+.wrapper {
+  background-image: url('/img/girl.png'),
+                    url('/img/bg.png');   
+  background-position:   right 85%, center;
+  background-repeat:  no-repeat, no-repeat;
+  background-size: auto, cover;
+  overflow-x: hidden;
+
+    @include phones {
+      background-image: url('/img/bg.png'),
+                        url('/img/girl.png');
+      background-position: center,  right 85%;
+      background-repeat:  no-repeat, no-repeat;
+      background-size: cover, contain;
+  }
+
+  @include tablets {
+    background-image: url('/img/bg.png'),
+                      url('/img/girl.png');
+    background-position: center,  right 85%;
+    background-repeat:  no-repeat, no-repeat;
+    background-size: cover, contain;
+}
+}
+
+.container {
+    position: relative;
+    width: 80vw;
+    margin: 0 auto;
+    font-size: 'Muse';
+    font-family: 'Musecyr';
+    z-index: 30;
+}

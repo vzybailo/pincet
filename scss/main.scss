@@ -1,0 +1,15 @@
+// resolutions
+$tablets: 768px;
+$phones: 480px;
+
+/* layout */
+@import 'layout/media.scss';
+@import 'layout/fonts.scss';
+@import 'layout/layout.scss';
+
+/* blocks */
+@import 'blocks/hamburger_menu.scss';
+@import 'blocks/mobile-menu.scss';
+
+/* pages */
+@import 'sections/welcome.scss';

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Студия депиляции и массажный кабинет в Бресте</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <header class="header">
+                <div class="header__logo">
+                    <img src="img/logo.png" alt="" class="header__logo-pic">
+                    <a class="hamburger-menu-link" href="#">
+                        <div class="hamburger-menu-link__bars"></div>
+                    </a>
+                </div>
+                <div class="header__title">Студия депиляции и массажный кабинет в Бресте</div>
+                <div class="header__address">
+                    <div class="address-pic">
+                        <img src="img/map.png" alt="">
+                        <img src="img/marker.png" alt="" class="map-marker">
+                    </div>
+                    <div class="address-scheme">
+                        <div class="scheme-title">Мы находимся в центре:</div>
+                        <div class="scheme-address">г. Брест, ул.Гоголя, д.65</div>
+                        <div class="scheme-map">
+                            <a href="#" class="map-link">
+                                Смотреть на карте
+                                <div class="map-see">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2451.2513238163788!2d23.696079115894825!3d52.093357475511255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47210bfa0846eda1%3A0x9d8826f6a26a2b91!2z0YPQuy4g0JPQvtCz0L7Qu9GPIDY1LCDQkdGA0LXRgdGC!5e0!3m2!1sru!2sby!4v1592815972605!5m2!1sru!2sby" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                                </div>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="header__timetable">
+                    <div class="timetable-phone">
+                        <div class="icon-timetable">
+                            <img src="img/phone-icon.png" alt="">
+                        </div>
+                        <div class="phone-call">
+                            <div class="call-title">Звоните, мы сейчас работаем</div>
+                            <a href="tel:+375 33 382 24 99" class="call-click">+375 33 382 24 99</a>
+                        </div>
+                    </div>
+                    <div class="timetable-shedule">
+                        <div class="icon-timetable">
+                            <img src="img/time-icon.png" alt="">
+                        </div>
+                        <div class="shedule-time">
+                            Пн-Вс <span>9:00-21:00</span> 
+                        </div>
+                    </div>
+                </div>
+                <div class="header__btn">
+                    <button type="submit" onclick="bopen();" class="header__btn-link">
+                        <img src="img/form-icon.png" alt="">
+                        Записаться онлайн
+                    </button> 
+                </div>
+            </header>
+            <nav class="nav">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="" class="menu__link">Главная</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="" class="menu__link">Шугаринг и депиляция воском</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="" class="menu__link">Антицеллюлитный массаж</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="" class="menu__link">Классический массаж</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="" class="menu__link">Обучение</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="" class="menu__link">Косметика для мастеров</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="" class="menu__link">Статьи</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="" class="menu__link">О студии</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="" class="menu__link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="content">
+              <div class="content__title">
+                  Хотите избавиться от <span>нежелательных волос</span> или нужен сеанс <span>антицеллюлитного массажа?</span>
+              </div>  
+              <div class="content__desc">
+                <ul class="desc-list">
+                    <li class="desc-item">депиляция воском и Шугаринг;</li>
+                    <li class="desc-item">профессиональные сертифицированные мастера;</li>
+                    <li class="desc-item">работаем и с женщинами, и с мужчинами;</li>
+                    <li class="desc-item">результат уже после первой процедуры.</li>
+                </ul>
+                <div class="content__hint">
+                    <div class="hint-attention">
+                        <a href="#" class="hint-pic">
+                            <div class="hint-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat facilis architecto</div>
+                            <img src="img/hint.png" alt="">    
+                        </a>
+                    </div> 
+                </div>  
+              </div>
+              <div class="content__btn">
+                <button onclick="bopen();" class="btn-order btn-book">
+                    <p>Получить карту клиента бесплатно</p>
+                    <img src="img/plantbtn.png" alt="">
+                </button> 
+              </div>
+              
+            </div>
+            <div id="popup_vk" style="display: none;">
+                <div class="popup_vk border_radius_class"> 
+                    <form action="server.php" method="POST" id="order-form" class="form">
+                        <div class="close_block">
+                            <a href="#" class="close-button" onclick="bclose();">
+                                <img src="img/icon-close.png" alt="">
+                            </a>  
+                        </div>
+                        <div class="form_title">
+                            <span>Получите</span> программу обучения
+                        </div>
+                        <div class="form_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo reprehenderit eos moleas!</div>
+                        <select name="user-choice" class="form_field">
+                            <option> Повышение квалификации</option>
+                            <option атрибуты>Обучение с нуля</option> 
+                            <option атрибуты>Подарочный сертификат</option> 
+                        </select>
+                        <input type="text" name="user-name" class="form_field" placeholder="Ваше имя">
+                        <input type="text" name="user-phone" class="form_field" placeholder="Ваш номер телефона">
+                        <button type="submit" class="btn-order btn-form">
+                            Получить программу
+                            <img src="img/Plant.png" class="btn-pic" alt="">
+                        </button>
+                    </form>
+                    <img src="img/form-img.png" alt="" class="form-img">
+                </div>
+            </div>
+        </div>
+        <div class="content_bottom">
+                <button class="arrow_block">
+                    <img src="img/arr-down-1.png" alt="" class="arrow_block-bg">
+                </button>
+        </div> 
+        <div class="parallax"></div>
+    </div>
+    <div class="mobile" style="display:none"; >
+        <div class="mobile__close">
+            <a href="#" class="mobile__close-link">
+                <img src="img/icon-close.png" alt="">
+            </a>
+        </div>
+        <ul class="mobile__menu">
+            <li class="mobile__item">
+                <a href="#arr" class="mobile__item-link" data-scroll-to="1">Главная</a>
+            </li>
+            <li class="mobile__item">
+                <a href="" class="mobile__item-link" data-scroll-to="2">Шугаринг и депиляция воском</a>
+            </li>
+            <li class="mobile__item">
+                <a href="" class="mobile__item-link" data-scroll-to="3">Антицеллюлитный массаж</a>
+            </li>
+            <li class="mobile__item">
+                <a href="" class="mobile__item-link" data-scroll-to="4">Классический массаж</a>
+            </li>
+            <li class="mobile__item">
+                <a href="" class="mobile__item-link" data-scroll-to="5">Обучение</a>
+            </li>
+            <li class="mobile__item">
+                <a href="" class="mobile__item-link" data-scroll-to="6">Косметика для мастеров</a>
+            </li>
+            <li class="mobile__item">
+                <a href="" class="mobile__item-link" data-scroll-to="6">Статьи</a>
+            </li>
+            <li class="mobile__item">
+                <a href="" class="mobile__item-link" data-scroll-to="6">О студии</a>
+            </li>
+            <li class="mobile__item">
+                <a href="" class="mobile__item-link" data-scroll-to="6">Контакты</a>
+            </li>
+        </ul>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bPopup/0.11.0/jquery.bpopup.min.js"></script>
+	<script src="https://vk.com/js/api/openapi.js"></script>
+    <script src="js/index.js"></script>  
+    <script src="js/mobile__menu.js"></script> 
+</body>
+</html>
